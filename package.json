@@ -1,0 +1,16 @@
+{
+  "name": "applet-design-utility",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "prejss-cli src/index.css --format commonjs"
+  },
+  "keywords": [],
+  "author": "AppletsGroup",
+  "license": "MIT",
+  "devDependencies": {
+    "prejss-cli": "^0.3.3",
+    "tailwindcss": "^3.2.4"
+  }
+}

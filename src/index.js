@@ -1,0 +1,1 @@
+module.exports = {".btn":{"@apply px-4 py-2 rounded-md text-white bg-blue-500 hover:bg-blue-600":true},".table":{"@apply w-full border-collapse border border-gray-300":true},".input":{"@apply block w-full px-4 py-2 rounded-md border border-gray-300 focus:border-blue-500 focus:outline-none":true}};
