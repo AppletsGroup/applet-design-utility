@@ -1,11 +1,18 @@
 .btn {
-  @apply px-4 py-2 rounded-md text-white bg-blue-500 hover:bg-blue-600;
+  @apply rounded-md px-4 py-2 cursor-pointer bg-gray-500 hover:bg-gray-600 text-white;
+}
+.btn-primary {
+  @apply bg-blue-500 hover:bg-blue-600;
+}
+.btn-secondary {
+  @apply bg-gray-500 hover:bg-gray-600;
+}
+
+.input {
+  @apply px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
 }
 
 .table {
   @apply w-full border-collapse border border-gray-300;
 }
 
-.input {
-  @apply px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
-}
