@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "prejss-cli src/index.css --format commonjs",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build": "prejss-cli src/index.css --format commonjs"
   },
   "keywords": [],
   "author": "AppletsGroup",
